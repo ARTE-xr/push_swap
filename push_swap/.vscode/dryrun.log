@@ -1,0 +1,18 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/mattif/Desktop/projects/push_swap'
+cc -Wall -Wextra -Werror -c check_utils1.c -o check_utils1.o
+cc -Wall -Wextra -Werror -c check_utils3.c -o check_utils3.o
+cc -Wall -Wextra -Werror -c get_utils.c -o get_utils.o
+cc -Wall -Wextra -Werror -c sorting_2_5.c -o sorting_2_5.o
+cc -Wall -Wextra -Werror -c args_checker.c -o args_checker.o
+cc -Wall -Wextra -Werror -c check_utils2.c -o check_utils2.o
+cc -Wall -Wextra -Werror -c creating_stacks.c -o creating_stacks.o
+cc -Wall -Wextra -Werror -c push_swap.c -o push_swap.o
+cc -Wall -Wextra -Werror -c sorting_1.c -o sorting_1.o
+cc -Wall -Wextra -Werror -c sorting_2.c -o sorting_2.o
+cc -Wall -Wextra -Werror -c sorting_utils.c -o sorting_utils.o
+cc -Wall -Wextra -Werror -c sorting_utils_2.c -o sorting_utils_2.o
+cc -Wall -Wextra -Werror -c moves.c -o moves.o
+cc -Wall -Wextra -Werror check_utils1.o check_utils3.o get_utils.o sorting_2_5.o args_checker.o check_utils2.o creating_stacks.o push_swap.o sorting_1.o sorting_2.o sorting_utils.o sorting_utils_2.o moves.o -o push_swap
+make: Leaving directory `/Users/mattif/Desktop/projects/push_swap'
+ 
